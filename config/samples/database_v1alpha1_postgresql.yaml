@@ -2,7 +2,7 @@ apiVersion: database.example.com/v1alpha1
 kind: PostgreSQL
 metadata:
   name: postgresql-sample-by-operator
-    #  namespace: demo
+  namespace: demo
 spec:
   size: 1
   storageSize: "1Gi"
