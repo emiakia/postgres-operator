@@ -1,0 +1,13 @@
+apiVersion: database.example.com/v1alpha1
+kind: PostgreSQL
+metadata:
+  name: postgresql-sample-by-operator
+    #  namespace: demo
+spec:
+  size: 1
+  storageSize: "1Gi"
+  image: "postgres:13"
+  databaseName: "mydatabase"
+  username: "admin"
+  password: "secretpassword"
+
